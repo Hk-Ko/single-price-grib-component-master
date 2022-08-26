@@ -10763,8 +10763,26 @@ body {
   background-color: hsl(204deg, 43%, 93%);
 }
 
-.box-3 {
+.box-one {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.box-two {
   background-color: rgb(12, 160, 160);
+  border-radius: 0px 0px 0px 15px;
+}
+
+.box-three {
+  border-radius: 0px 0px 15px 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .box-two {
+    border-radius: 0;
+  }
+  .box-three {
+    border-radius: 0px 0px 15px 15px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
